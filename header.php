@@ -8,7 +8,6 @@
 <script src="js/backbone.js"></script>
 <!-- LayoutManager. -->
 <script src="js/backbone.layoutmanager.js"></script>
-<!--<script data-main="js/app.js" src="js/require.js"></script>-->
 <script src="js/main.js"></script>
 </head>
 <body>

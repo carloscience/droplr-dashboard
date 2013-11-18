@@ -30,9 +30,6 @@ Backbone.Layout.configure({
   }
 });
 
-/*JB.ThumbnailModel = Backbone.Model.extend({});
-JB.thumbnailModel = new JB.ThumbnailModel();*/
-
 // Backbone router for nav links
 DR.Router = Backbone.Router.extend({
   routes: {
@@ -41,8 +38,6 @@ DR.Router = Backbone.Router.extend({
   },
   index: function() {
     console.log('got index');
-    // render home page
-    //JB.home.render();
     DR.leftNav.render();
     DR.topNav.render();
     DR.thumbnails.render();
