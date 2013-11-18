@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|Quicksand);
+
+%boxsize {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+}
+
+%font-body {
+	font-family: 'PT Sans Caption', "Myriad Pro", Myriad, "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+%font-glyph {
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+// Clearfix
+// --------
+// For clearing floats like a boss h5bp.com/q
+// A Mixin and a class
+@mixin clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    // Fixes Opera/contenteditable bug:
+    // http://nicolasgallagher.com/micro-clearfix-hack/#comment-36952
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    // Fixes Opera/contenteditable bug:
+    // http://nicolasgallagher.com/micro-clearfix-hack/#comment-36952
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}

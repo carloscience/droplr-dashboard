@@ -1,0 +1,7 @@
+ <% _.each(model, function(th) { %>
+	<div class="image_cell">
+		<a href="#" title="<%= th.title %>"><img src="<%= th.src %>" alt="<%= th.alt %> " border="0" /></a>
+		<article class="title"><%= th.title %></article>
+		<article class="time"><%= th.time %></article>
+	</div>
+<% }); %>

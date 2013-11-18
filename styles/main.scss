@@ -1,0 +1,21 @@
+// @import "compass";
+// @import "partials/bootstrap_mixins";
+
+// Core variables and mixins
+@import "partials/variables"; // Modify this for custom colors, font-sizes, etc
+
+// CSS Reset
+@import "partials/reset";
+
+// Base CSS
+//@import "partials/bootstrap_type";
+//@import "partials/bootstrap_forms";
+
+// User defined mixins
+@import "partials/mixins";
+
+// Site Specific Base Styles
+@import "partials/base_styles";
+
+
+
